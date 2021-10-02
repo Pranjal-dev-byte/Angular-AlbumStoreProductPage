@@ -7,7 +7,7 @@ import { ProductService } from "app/product.service";
   styleUrls: ["./product-description.component.css"],
 })
 export class ProductDescriptionComponent implements OnInit {
-  public albumInfo: any;
+  albumInfo: any;
   constructor(private _productService: ProductService) {}
 
   ngOnInit() {
